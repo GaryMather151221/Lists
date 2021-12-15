@@ -12,7 +12,7 @@ namespace Lists
         public INode Top { get; set; }
 
         /// <summary>
-        /// Loop the list for a matching node, if found then reset the parents next node to the matches child node to remove from list.
+        /// Loop the list for a matching node, if found then reset the parents next node to the matched child node to remove from list.
         /// </summary>
         /// <returns>True if the node is found and removed.</returns>
         public virtual bool Delete(INode node)

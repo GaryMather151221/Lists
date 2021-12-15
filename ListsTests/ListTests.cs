@@ -20,7 +20,7 @@ namespace ListsTests
             list.Add("Fred");
             node = list.Find("Fred");
 
-            // An exmaple of writing detailed messages out in tests...
+            // An example of writing detailed messages out in tests...
             Assert.IsTrue(node.Value == "Fred",$"Failed to Add Fred for {list.GetType().Name}");
 
             node = list.Find("Wilma");
